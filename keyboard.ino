@@ -20,9 +20,4 @@ void setup()
 
 void loop()
 {
-    // it would be nice to fire routine events while
-    // the button is being pushed, rather than rely upon loop
-    if (System.buttonPushed() > 1000) {
-        RGB.color(255, 255, 0); // YELLOW
-    }
 }
