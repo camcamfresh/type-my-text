@@ -4,7 +4,7 @@ STARTUP(Keyboard.begin());
 void button_handler(system_event_t event, int duration, void* )
 {
     if (!duration) { // just pressed
-        Keyboard.write("password");
+        Keyboard.write("text");
         RGB.control(true);
         RGB.color(255, 0, 255); // MAGENTA
     }
